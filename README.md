@@ -94,8 +94,11 @@ Após o término da exploração do labirinto pelo garoto, serão exibidos os se
 
 # CONCLUSÃO
 
-Apesar do funcionamento adequado do programa, não é possível fazer uma analíse a cerca do seu custo computacional devido a natureza aleatória do problema. Como os passos do garoto são aleatórios, não existe uma lógica a ser seguida quanto ao custo computacional do problema.
+O problema de computação conhecido como "labirinto recorrente" envolve a exploração de um labirinto que pode ter uma configuração recorrente, ou seja, o mesmo padrão de caminhos e obstáculos se repete em diferentes partes do labirinto. Este problema é interessante porque pode levar a soluções inesperadas e ineficientes quando não é tratado adequadamente.
 
+Uma das principais conclusões que podemos tirar é que a exploração de um labirinto recorrente requer uma abordagem cuidadosa, a fim de evitar a repetição desnecessária de cálculos ou a exploração interminável de um ciclo infinito. Também é importante considerar a eficiência do algoritmo escolhido para explorar o labirinto, pois um algoritmo mal projetado pode levar a um tempo de execução muito longo ou mesmo a um erro de memória.
+
+Além disso, o problema do labirinto recorrente destaca a importância do uso de estruturas de dados eficientes e algoritmos de busca bem projetados. Por exemplo, o uso de matrizes booleanas pode ser uma maneira eficaz de rastrear quais partes do labirinto já foram exploradas, e o uso de algoritmos de busca inteligentes, como a busca em largura ou a busca em profundidade, pode ajudar a encontrar o caminho mais curto ou mais seguro através do labirinto.
 
 # COMPILAÇÃO E EXECUÇÃO
 
